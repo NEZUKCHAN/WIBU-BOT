@@ -1073,11 +1073,11 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =`W A I F U 🏴‍☠️`
+menu =`NEZUKO CHAN`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'🏴‍☠️SHOW MENU🏴‍☠️'},type:1},
-{buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
-{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
+{buttonId:`owner`,buttonText:{displayText:'OWNER'},type:1},
+{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
@@ -1105,7 +1105,7 @@ else if(menusimpel = true){
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `┌───「 \`\`\`${NamaBot}\`\`\` 」
 │
-🏴‍☠️ _Creator : *KurrXd* (CUMAN RECODE)
+🏴‍☠️ _Creator : *Pasya* (CUMAN RECODE)
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1128,19 +1128,19 @@ else if(menusimpel = true){
 🏴‍☠️ _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
 │
 └───「 \`\`\`${NamaBot}\`\`\` 」`
-sendButLocation(from, `${menu}`, "*_© W A I F U_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_ NEZUKO BOT_*, {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'BUTTON MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 break
 case 'allmenu': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await wibu.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🏴‍☠️ W A I F U 🏴‍☠️'
-       ownerJid = "6281220670449@s.whatsapp.net"
+       nama = '🏴‍☠️NEZUKO BOT 🏴‍☠️'
+       ownerJid = "13052396672@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *KurrXd* (CUMAN RECODE)
+🏴‍☠️ _Creator : *Pasya* (CUMAN RECODE)
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1465,9 +1465,9 @@ anu = wibu.prepareMessageFromContent(from,{
                   wibu.relayWAMessage(anu)
                   } else if(menuall = true){
 gbutsan = [
-{buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
-{buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1},
-{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+{buttonId:`owner`,buttonText:{displayText:'OWNER'},type:1},
+{buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1},
+{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
@@ -1496,8 +1496,8 @@ const serialUser = createSerial(18)
 
 *「 ${NamaBot} 」*`
 gbutsan = [
-{buttonId:`menu`,buttonText:{displayText:'🏴‍☠️MENU🏴‍☠️'},type:1},
-{buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
+{buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
+{buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
 ]
 mhan = await wibu.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
